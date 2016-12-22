@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Github hub</title>
+    <!--
+        Comments
+        -->
+</head>
+<body>
+    <header>
+        <div>
+            <img src="logo/logo.gif" title="GitHub" />
+        </div>
+        <div>This is a site to search Github for interesting projects.</div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <p>In this <em>sample site</em>, w'll show a list of <a href="http://github.com">Github</a> projects the data about <strong>those projects</strong>.  </p>
+
+        <form action="http://wilder.azurewebsites.net/echo" method="post">
+            <label for="searchPhrase">Search Phrase:</label>
+            <input type="text" id="searchPhrase" name="searchPhrase" />
+            <br />
+            <input type="checkbox" id="useStars" name="useStars" checked /> <label for="useStars">Use Stars?</label>
+            <br />
+            <label for="langChoice">Language</label>
+            <select name="langChoice" id="langChoice">
+                <option selected>All</option>
+                <option>JavaScript</option>
+                <option>C#</option>
+                <option>Java</option>
+                <option>Ruby</option>
+            </select>
+            <br />
+            <input type="submit" value="Search" />
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2016 Vaibhav Bali
+    </footer>
+</body>
+</html>
